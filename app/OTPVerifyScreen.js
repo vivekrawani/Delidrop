@@ -45,8 +45,7 @@ const OTPVerifyScreen = ({ route, navigation }) => {
   };
 
   const checkUserExists = async (phoneNumber) => {
-    // Implement your logic to check if user exists in your database
-    return false; // For demo purposes
+    return false; 
   };
 
   const handleResendOTP = async () => {
